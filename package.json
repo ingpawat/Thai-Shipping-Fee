@@ -1,7 +1,7 @@
 {
   "name": "thai-shipping-fee",
   "version": "1.0.0",
-  "description": "Calculate shipping costs in Thailand based on Shopee Standard Delivery rates",
+  "description": "Calculate shipping costs in Thailand based location",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -12,6 +12,9 @@
       "import": "./dist/index.mjs"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
