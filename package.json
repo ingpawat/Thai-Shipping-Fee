@@ -1,6 +1,6 @@
 {
   "name": "thai-shipping-fee",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Calculate shipping costs in Thailand based location",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
