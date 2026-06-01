@@ -157,6 +157,18 @@ If you want to contribute or modify the package locally:
 
 ---
 
+## 🤖 LLM Use Cases (Scenarios)
+
+This library is designed to be easily manipulated or tested by Large Language Models (LLMs). Here are a couple of scenarios:
+
+- **Scenario 1: UI Generation & Testing**
+  Prompt an LLM to generate a user interface (UI) to test and verify if the library calculates shipping fees correctly in a real-world application.
+
+- **Scenario 2: Rate Adjustment (Easy)**
+  You can instruct an LLM to override the default rates by writing a custom `rates.ts` file. You can utilize the core logic to generate a new rate configuration. The current rate structure can be found at: [src/rates.ts](https://github.com/ingpawat/Thai-Shipping-Fee/blob/main/src/rates.ts).
+
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License.
